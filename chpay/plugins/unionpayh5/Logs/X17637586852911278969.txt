@@ -1,0 +1,5 @@
+下单时间：2021-06-07 17:54:52
+接受参数时间：2021-06-07 17:55:13
+订单状态更新时间：2021-06-07 17:55:13
+报文：money=206.00&name=test&out_trade_no=X17637586852911278969&pid=1008&trade_no=2021060717545248178&trade_status=TRADE_SUCCESS&type=unionpayh5k0zR5447KV1Kv75YG7kG74Tktykhr50KURL:http://conn.boeusb.com/notice/fdtplnotice?money=206.00&name=test&trade_no=2021060717545248178&out_trade_no=X17637586852911278969&trade_status=TRADE_SUCCESS&pid=1008&type=unionpayh5&sign=f9c4d0f60efabf96745fd37e31f3fe8c&sign_type=MD5
+调用成功时间：2021-06-07 17:55:14

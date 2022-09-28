@@ -1,0 +1,28 @@
+[18-Aug-2022 15:13:41 PRC] PHP Warning:  require(./class/Mysql.php): failed to open stream: No such file or directory in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 9
+[18-Aug-2022 15:13:41 PRC] PHP Fatal error:  require(): Failed opening required './class/Mysql.php' (include_path='.:/www/server/php/72/lib/php') in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 9
+[18-Aug-2022 15:17:17 PRC] PHP Warning:  require(./class/Mysql.php): failed to open stream: No such file or directory in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 9
+[18-Aug-2022 15:17:17 PRC] PHP Fatal error:  require(): Failed opening required './class/Mysql.php' (include_path='.:/www/server/php/72/lib/php') in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 9
+[18-Aug-2022 15:17:31 PRC] PHP Fatal error:  Uncaught Error: Class 'Mysql' not found in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/web_pay.php:20
+Stack trace:
+#0 {main}
+  thrown in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/web_pay.php on line 20
+[18-Aug-2022 15:18:04 PRC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/web_pay.php:76
+Stack trace:
+#0 {main}
+  thrown in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/web_pay.php on line 76
+[18-Aug-2022 15:18:52 PRC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/web_pay.php:76
+Stack trace:
+#0 {main}
+  thrown in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/web_pay.php on line 76
+[18-Aug-2022 15:40:23 PRC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 92
+[18-Aug-2022 15:40:23 PRC] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 94
+[18-Aug-2022 15:49:51 PRC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 92
+[18-Aug-2022 15:49:51 PRC] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 94
+[18-Aug-2022 15:54:47 PRC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 92
+[18-Aug-2022 15:54:47 PRC] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 94
+[18-Aug-2022 15:54:47 PRC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 92
+[18-Aug-2022 15:54:47 PRC] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 94
+[18-Aug-2022 16:10:57 PRC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 92
+[18-Aug-2022 16:10:57 PRC] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 94
+[18-Aug-2022 16:10:57 PRC] PHP Warning:  openssl_verify(): supplied key param cannot be coerced into a public key in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 101
+[18-Aug-2022 16:10:57 PRC] PHP Warning:  openssl_free_key() expects parameter 1 to be resource, boolean given in /www/wwwroot/ys.dickmorley.cn/chpay/plugins/hc/common.php on line 102

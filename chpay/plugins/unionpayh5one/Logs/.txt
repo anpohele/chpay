@@ -1,0 +1,25 @@
+接受参数时间：2021-05-11 22:26:38
+接受参数时间：2021-05-11 22:26:51
+接受参数时间：2021-05-11 22:27:01
+接受参数时间：2021-05-11 22:27:01
+接受参数时间：2021-05-11 22:27:03
+参数a:31:{s:13:"buyerUsername";s:11:"176****0605";s:7:"msgType";s:12:"trade.notify";s:7:"payTime";s:19:"2021-05-11 22:30:51";s:15:"buyerCashPayAmt";s:2:"10";s:10:"connectSys";s:8:"UNIONPAY";s:4:"sign";s:64:"A181A8EE29A2DFC0694C406BA8F413B6D4EE68E997D26196BE8D16C606156D6E";s:7:"merName";s:36:"上海刻契网络科技有限公司";s:3:"mid";s:15:"89831014816019A";s:13:"invoiceAmount";s:2:"10";s:10:"settleDate";s:10:"2021-05-11";s:9:"billFunds";s:12:"银行卡:10";s:7:"buyerId";s:16:"2088522253266573";s:9:"mchntUuid";s:32:"2d9081bd785f3fba01786e41b2077560";s:3:"tid";s:8:"20159023";s:7:"instMid";s:9:"H5DEFAULT";s:13:"receiptAmount";s:2:"10";s:12:"couponAmount";s:1:"0";s:13:"targetOrderId";s:28:"2021051122001466571448430099";s:8:"signType";s:6:"SHA256";s:13:"billFundsDesc";s:25:"银行卡支付0.10元。";s:9:"orderDesc";s:12:"充值缴费";s:5:"seqId";s:12:"21364607624N";s:10:"merOrderId";s:17:"11UP2021051142338";s:9:"targetSys";s:10:"Alipay 2.0";s:11:"totalAmount";s:2:"10";s:10:"createTime";s:19:"2021-05-11 22:30:40";s:14:"buyerPayAmount";s:2:"10";s:2:"wO";s:4:"wptl";s:8:"notifyId";s:36:"e5e38027-a39a-4006-9083-4ee30bb19615";s:7:"subInst";s:6:"104200";s:6:"status";s:13:"TRADE_SUCCESS";}参数a:31:{s:13:"buyerUsername";s:11:"176****0605";s:7:"msgType";s:12:"trade.notify";s:7:"payTime";s:19:"2021-05-11 22:30:51";s:15:"buyerCashPayAmt";s:2:"10";s:10:"connectSys";s:8:"UNIONPAY";s:4:"sign";s:64:"A181A8EE29A2DFC0694C406BA8F413B6D4EE68E997D26196BE8D16C606156D6E";s:7:"merName";s:36:"上海刻契网络科技有限公司";s:3:"mid";s:15:"89831014816019A";s:13:"invoiceAmount";s:2:"10";s:10:"settleDate";s:10:"2021-05-11";s:9:"billFunds";s:12:"银行卡:10";s:7:"buyerId";s:16:"2088522253266573";s:9:"mchntUuid";s:32:"2d9081bd785f3fba01786e41b2077560";s:3:"tid";s:8:"20159023";s:7:"instMid";s:9:"H5DEFAULT";s:13:"receiptAmount";s:2:"10";s:12:"couponAmount";s:1:"0";s:13:"targetOrderId";s:28:"2021051122001466571448430099";s:8:"signType";s:6:"SHA256";s:13:"billFundsDesc";s:25:"银行卡支付0.10元。";s:9:"orderDesc";s:12:"充值缴费";s:5:"seqId";s:12:"21364607624N";s:10:"merOrderId";s:17:"11UP2021051142338";s:9:"targetSys";s:10:"Alipay 2.0";s:11:"totalAmount";s:2:"10";s:10:"createTime";s:19:"2021-05-11 22:30:40";s:14:"buyerPayAmount";s:2:"10";s:2:"wO";s:4:"wptl";s:8:"notifyId";s:36:"e5e38027-a39a-4006-9083-4ee30bb19615";s:7:"subInst";s:6:"104200";s:6:"status";s:13:"TRADE_SUCCESS";}参数a:31:{s:13:"buyerUsername";s:11:"176****0605";s:7:"msgType";s:12:"trade.notify";s:7:"payTime";s:19:"2021-05-11 22:30:51";s:15:"buyerCashPayAmt";s:2:"10";s:10:"connectSys";s:8:"UNIONPAY";s:4:"sign";s:64:"A181A8EE29A2DFC0694C406BA8F413B6D4EE68E997D26196BE8D16C606156D6E";s:7:"merName";s:36:"上海刻契网络科技有限公司";s:3:"mid";s:15:"89831014816019A";s:13:"invoiceAmount";s:2:"10";s:10:"settleDate";s:10:"2021-05-11";s:9:"billFunds";s:12:"银行卡:10";s:7:"buyerId";s:16:"2088522253266573";s:9:"mchntUuid";s:32:"2d9081bd785f3fba01786e41b2077560";s:3:"tid";s:8:"20159023";s:7:"instMid";s:9:"H5DEFAULT";s:13:"receiptAmount";s:2:"10";s:12:"couponAmount";s:1:"0";s:13:"targetOrderId";s:28:"2021051122001466571448430099";s:8:"signType";s:6:"SHA256";s:13:"billFundsDesc";s:25:"银行卡支付0.10元。";s:9:"orderDesc";s:12:"充值缴费";s:5:"seqId";s:12:"21364607624N";s:10:"merOrderId";s:17:"11UP2021051142338";s:9:"targetSys";s:10:"Alipay 2.0";s:11:"totalAmount";s:2:"10";s:10:"createTime";s:19:"2021-05-11 22:30:40";s:14:"buyerPayAmount";s:2:"10";s:2:"wO";s:4:"wptl";s:8:"notifyId";s:36:"e5e38027-a39a-4006-9083-4ee30bb19615";s:7:"subInst";s:6:"104200";s:6:"status";s:13:"TRADE_SUCCESS";}参数接受参数时间：2021-05-11 22:37:11
+订单状态更新时间：2021-05-11 22:37:11
+接受参数时间：2021-05-11 22:37:32
+订单状态更新时间：2021-05-11 22:37:32
+下单时间：2021-05-18 13:05:24
+下单时间：2021-05-18 19:42:23
+下单时间：2021-05-18 19:42:58
+下单时间：2021-05-21 22:53:39
+接受参数时间：2021-05-28 13:33:46
+订单状态更新时间：2021-05-28 13:33:46
+报文：money=&name=&out_trade_no=&pid=&trade_no=&trade_status=&type=unionpayh5URL:?money=&name=&trade_no=&out_trade_no=&trade_status=&pid=&type=unionpayh5&sign=69e8e7867c9cbfd6478f31130c34c0ea&sign_type=MD5
+下单时间：2021-06-01 18:28:02
+下单时间：2021-06-01 18:28:08
+下单时间：2021-06-01 18:28:09
+下单时间：2021-06-01 18:28:10
+下单时间：2021-06-01 18:28:11
+下单时间：2021-06-01 18:28:40
+下单时间：2021-06-01 18:28:45
+下单时间：2021-06-01 18:40:43
+下单时间：2021-06-01 18:40:56

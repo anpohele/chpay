@@ -1,0 +1,56 @@
+<?php
+/**
+ * AdaPay 发起扫码或者app支付
+ * author: adapay.com https://docs.adapay.tech/api/04-trade.html
+ * Date: 2019/08/03 13:05
+ */
+
+# 加载SDK需要的文件
+include_once  dirname(__FILE__). "/../../AdapaySdk/init.php";
+# 加载商户的配置文件
+include_once  dirname(__FILE__). "/../config.php";
+
+
+
+# 初始化支付类
+$payment = new \AdaPaySdk\Payment();
+
+# 支付设置
+$payment_params = array(
+    'app_id'=> 'app_8cf327b5-84d3-45d3-8499-41211760c5d9',
+//    'app_id'=> 'app_f7841d17-8d4e-469f-82da-1c3f43c3e470',
+    'order_no'=> "PY_". date("YmdHis").rand(100000, 999999),
+    'pay_channel'=> 'alipay_wap',
+//    'time_expire'=> date("YmdHis", time()+86400),
+    'pay_amt'=> '4.01',
+    'goods_title'=> '商品subject',
+    'goods_desc'=> 'body',
+    'description'=> 'description',
+    'notify_url'=>'https://pay.fairydeed.com/plugins/adapay/notify.php',
+
+//    'expend'=> [
+//        'buyer_id'=> '1111111',              // 支付宝卖家账号ID
+//        'buyer_logon_id'=> '22222222222',   // 支付宝卖家账号
+//        'promotion_detail'=>[              // 优惠信息
+//            'cont_price'=> '100.00',      // 订单原价格
+//            'receipt_id'=> '123',        // 商家小票ID
+//            'goodsDetail'=> [           // 商品信息集合
+//                ['goods_id'=> "111", "goods_name"=>"商品1", "quantity"=> 1, "price"=> "1.00"],
+//                ['goods_id'=> "112", "goods_name"=>"商品2", "quantity"=> 1, "price"=> "1.01"]
+//            ]
+//        ]
+//    ]
+);
+
+# 发起支付
+$payment->create($payment_params);
+
+
+# 对支付结果进行处理
+if ($payment->isError()){
+    //失败处理
+    var_dump($payment->result);
+} else {
+    //成功处理
+    var_dump($payment->result);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>创建用户</h1>
+    <form action="https://pay.fairydeed.com/adapayuser/adapay/adapaydemo/Member/create.php" method="post">
+        <input type="text" name="member_id" >用户id
+        <input type="text" name="tel_no" placeholder="银行卡指定电话">用户电话
+        <input type="text" name="nickname" placeholder="银行卡绑定姓名">用户姓名
+        <input type="submit">
+    </form>
+</div>
+<div>
+    <h1>为用户绑定银行卡</h1>
+    <form action="https://pay.fairydeed.com/adapayuser/adapay/adapaydemo/SettleAccount/create.php">
+        <input type="text" name="member_id">用户id
+        <input type="text" name="card_id">银行卡号
+        <input type="text" name="card_name">绑卡人姓名
+        <input type="text" name="cert_id">身份证id
+        <input type="text" name="tel_no">电话
+        <input type="text" name="bank_code">开户行号(自行对照adapay官网)
+    </form>
+</div>
+
+</body>
+<style>
+    input{
+        display: block;
+    }
+</style>
+</html>

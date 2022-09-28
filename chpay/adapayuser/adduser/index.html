@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="formOne">
+                <div class="title">创建用户</div>
+                <form action="https://pay.fairydeed.com/adapayuser/adapaydemo/Member/create.php" method="post">
+                    <div class="question">
+                        <span>用户id:</span><input type="text" name="member_id" >
+                    </div>
+                    <div class="question">
+                        <span>用户电话:</span><input type="text" name="tel_no" placeholder="银行卡指定电话">
+                    </div>
+                    <div class="question">
+                        <span>用户姓名:</span><input type="text" name="nickname" placeholder="银行卡绑定姓名">
+                    </div>
+                    <input type="submit" class="submit"><br />
+                </form>
+            </div>
+            <div class="formTwo">
+                <div class="title">为用户绑定银行卡</div>
+                <form action="https://pay.fairydeed.com/adapayuser/adapaydemo/SettleAccount/create.php" method="post">
+                    <div class="question">
+                        <span>用户id:</span><input type="text" name="member_id">
+                    </div>
+                    <div class="question">
+                        <span>银行卡号:</span><input type="text" name="card_id">
+                    </div>
+                    <div class="question">
+                        <span>绑卡人姓名:</span><input type="text" name="card_name"><br />
+                    </div>
+                    <div class="question">
+                        <span>身份证id:</span><input type="text" name="cert_id">
+                    </div>
+                    <div class="question">
+                        <span>电话:</span><input type="text" name="tel_no">
+                    </div>
+                    <div class="question">
+                        <span>开户行号:</span><input type="text" name="bank_code" placeholder="自行对照adapay官网">
+                    </div>
+                    <input type="submit" class="submit"><br />
+                </form>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">  
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Opera Mobi|Windows CE|Symbian|Windows Phone|POLARIS|lgtelecom|nokia|SonyEricsson|LG|SAMSUNG|Samsung/i  
+            .test(navigator.userAgent)) {  
+        //移动端浏览器  
+       $(".title").addClass("phone");
+       $(".question").addClass("phoneFont");
+       question
+    } else {  
+        //PC浏览器  
+        $(".title").addClass("web");
+        $(".question").addClass("webFont");
+    }  
+</script> 
+</body>
+<style>
+    input{
+       height: 50px;
+       font-size: 40px;
+       border: 1px solid #666666;
+       border-radius: 10px;
+    }
+    span{
+        display: inline-block;
+        width: 200px;
+    }
+    form{
+        font-size: 30px;
+    }
+    .wrap{
+        width: 100%;
+        height: 95vh;
+        padding-top: 4vh;
+        background-color: #183159;
+    }
+    .container{
+        width: calc(90% - 4vh);
+        height: 88vh;
+        margin: 0 auto;
+        padding-top: 2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    .formOne{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+        font-weight: bold;
+    }
+    .question{
+        margin-top: 2vh;
+        font-size: 20px;
+    }
+    .submit{
+        margin-top: 1vh;
+    }
+    .phone{
+        font-size: 50px;
+    }
+    .web{
+        font-size: 20px;
+    }
+    .phoneFont{
+        font-size: 40px;
+    }
+    .webFont{
+        font-size: 20px;
+    }
+</style>
+</html>
